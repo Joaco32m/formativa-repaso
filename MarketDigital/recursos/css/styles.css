@@ -52,30 +52,123 @@ nav a:hover{
     color: #808080;
 }
 
+body{
+    background-color: #DEE9F7;
+}
 
 .main{
-    background-color: #DEE9F7;
     display: flex;
+    padding: 1,5rem;
 
 }
 
 .menu{
     background-color: #ffffff;
     border-color: #6A6F75 1px;
-    margin: 1rem 2rem 5rem 8rem;
+    margin: 3rem 2rem 5rem 8rem;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
+legend{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:#000000;
+}
+
+input, select{
+    margin-bottom: 1rem;
+    border: transparent;
+    border-radius: 15px;
+    background: rgb(227, 227, 227);
+    color: #505050;
+    height: 1.3rem;
+}
 .titulo-producto{
     color: rgba(32, 32, 32, 0.687);
 }
 
+.contenedor-producto{
+    background: white;
+    border: #93979c solid 2px;
+    padding: 3%;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.Producto h3{
+span{
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
 
-    color: black;
+.producto h3{
+    margin-top:5rem;
+    margin-bottom: 0;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+
+.precio{
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff6347;
+}
+
+.producto img{
+    width: 19rem;
+    height: auto;   
+}
+
+.producto{
+    margin: 2rem;
+}
+
+
+footer{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+footer a{
     text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.contenedor-footer{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-footer span{
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.contenedor-footer span::after{
+    
+    content: '';
+    display: block;
+    width: 23.3rem;
+    height: .2rem;
+    background-color: #ffffff;
+}
+
+
+.fin{
+    width: 450px;
+}
+
+.Contacto{
+    width: 450px;
+    padding-bottom: 20px;
 }
