@@ -1,6 +1,20 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 header {
     background-color: #465B75;
-    height: 20rem;
+    height: 19rem;
+}
+
+img{ 
+    display: flex;
+    width: 300px;
+    padding-top : 40px;
+    padding-left: 100px;
+    padding-bottom: 20px;
 }
 
 .contenedor{
@@ -9,7 +23,6 @@ header {
     align-items: flex-start;
     margin: 0 auto;
     width: 95%;
-    
 
 }
 .top_header{
@@ -22,8 +35,13 @@ header {
 }
 
 h1{
+    margin-top:1rem;
+    margin-bottom: 0;
     color: white;
-}
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-left:4rem ;
+}  
 
 nav a{
     color: white;
@@ -38,14 +56,26 @@ nav a:hover{
 .main{
     background-color: #DEE9F7;
     display: flex;
+
 }
 
 .menu{
     background-color: #ffffff;
     border-color: #6A6F75 1px;
-    margin: 0 1rem 5rem 8rem;
+    margin: 1rem 2rem 5rem 8rem;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.titulo-producto{
+    color: rgba(32, 32, 32, 0.687);
+}
+
+
+.Producto h3{
+
+    color: black;
+    text-decoration: none;
 }
